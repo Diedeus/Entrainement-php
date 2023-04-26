@@ -12,3 +12,4 @@ class user{
 $userCreate = new user;
 
 $userCreate->parler();
+echo "et ".$userCreate->parler();
