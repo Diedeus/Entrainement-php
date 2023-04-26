@@ -14,3 +14,12 @@ echo "la marque est $voitureEnCours->marque $voitureEnCours->couleur";
 $nbrRoue = "";
 $voitureEnCours->nbrRoue = "4";
 echo "le nombre de roue est de $voitureEnCours->nbrRoue";
+
+
+class user {
+    public $nom = "hugo";
+    public $prenom = "bocquet";
+    public function parler{
+        return "bonjour"
+    };
+}
